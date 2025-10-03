@@ -1,0 +1,54 @@
+# ██████╗ ███████╗████████╗████████╗███████╗██████╗ ██████╗ ██████╗  ██████╗ ███████╗██╗██╗     ███████╗
+# ██╔══██╗██╔════╝╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔════╝██║██║     ██╔════╝
+# ██████╔╝█████╗     ██║      ██║   █████╗  ██████╔╝██████╔╝██████╔╝██║   ██║█████╗  ██║██║     █████╗
+# ██╔══██╗██╔══╝     ██║      ██║   ██╔══╝  ██╔══██╗██╔═══╝ ██╔══██╗██║   ██║██╔══╝  ██║██║     ██╔══╝
+# ██████╔╝███████╗   ██║      ██║   ███████╗██║  ██║██║     ██║  ██║╚██████╔╝██║     ██║███████╗███████╗
+# ╚═════╝ ╚══════╝   ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚══════╝
+#
+# BetterProfile Configuration
+
+menu:
+  title: '&8&l{player}''s sᴛᴀᴛs'
+  size: 27
+  require-permission: false
+  required-permission: 'betterprofile.use'
+
+# Auto-update menu items (in seconds, 0 to disable)
+update-interval: 5
+
+# Enable/disable specific menu items
+items:
+  player-info:
+    enabled: true
+    slot: 4
+  kills-deaths:
+    enabled: true
+    slot: 11
+  blocks:
+    enabled: true
+    slot: 12
+  playtime:
+    enabled: true
+    slot: 13
+  location:
+    enabled: true
+    slot: 14
+  health:
+    enabled: true
+    slot: 15
+  money:
+    enabled: true
+    slot: 22
+
+# PlaceholderAPI integration
+placeholderapi:
+  enabled: true
+  fallback-values:
+    no-economy: 'N/A'
+    no-data: 'Unknown'
+
+# Economy settings
+economy:
+  enabled: true
+  format: '%.2f'
+  currency-symbol: '$'

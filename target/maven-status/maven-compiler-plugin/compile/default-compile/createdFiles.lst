@@ -1,0 +1,7 @@
+io\github\AzmiiD\aProfile\AProfile.class
+io\github\AzmiiD\aProfile\commands\StatsCommand.class
+io\github\AzmiiD\aProfile\utils\HeadUtils.class
+io\github\AzmiiD\aProfile\gui\MenuManager.class
+io\github\AzmiiD\aProfile\utils\MessageUtils.class
+io\github\AzmiiD\aProfile\config\ConfigManager.class
+io\github\AzmiiD\aProfile\listeners\MenuClickListener.class

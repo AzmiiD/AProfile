@@ -1,0 +1,25 @@
+name: AProfile
+version: '1.0-SNAPSHOT'
+main: io.github.AzmiiD.aProfile.AProfile
+api-version: '1.21'
+authors: [ Azmii_ ]
+description: Better Profile For Minecraft Server
+softdepend: [PlaceholderAPI, Vault]
+
+commands:
+  stats:
+    description: Open your player statistics menu
+    usage: /stats [player]
+    aliases: [playerinfo]
+  profile:
+    descge: /profile [player]
+    aliases: [playerinfo]
+
+permissions:
+  betterprofile.use:
+    desription: Open your player profile menu
+    usacription: Access to the stats menu
+    default: true
+  betterprofile.admin:
+    description: Administrative access
+    default: op

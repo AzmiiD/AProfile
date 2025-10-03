@@ -1,0 +1,20 @@
+# BetterProfile Messages Configuration
+
+messages:
+  # Command messages
+  only-players: '&cOnly players can use this command!'
+  no-permission: '&cYou don''t have permission to use this command!'
+  menu-opened: '&aStats menu opened!'
+
+  # Error messages
+  plugin-reload: '&aBetterProfile configuration reloaded!'
+  reload-error: '&cError occurred while reloading configuration!'
+
+  # Economy messages
+  no-economy: '&cEconomy plugin not found!'
+  economy-error: '&cError retrieving balance!'
+
+  # General messages
+  prefix: '&8[&bBetter&eProfile&8]'
+  loading: '&7Loading...'
+  unavailable: '&cUnavailable'
